@@ -4,6 +4,8 @@ import ButtonComponent from './components/button/buttoncomponents.js';
 import ImageComponent from './components/img/img.js';
 import OrderedList from './components/list/list.js';
 import UnorderedList from './components/list/ul.js';
+// import jsx from './components/jsx/jsx';
+import JsxFunctional from './components/jsx/jsxFunctional.js';
 function App() {
   return (
     <div>
@@ -15,6 +17,7 @@ function App() {
       <ImageComponent/>
       <OrderedList/>
       <UnorderedList/>
+      <JsxFunctional/>
     </div>
   );
 }
