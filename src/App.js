@@ -4,6 +4,7 @@ import ButtonComponent from './components/button/buttoncomponents.js';
 import ImageComponent from './components/img/img.js';
 import OrderedList from './components/list/list.js';
 import UnorderedList from './components/list/ul.js';
+import ComponentA,{ComponentB,ComponentC} from './components/exports-imports/export.js';
 function App() {
   return (
     <div>
@@ -15,6 +16,9 @@ function App() {
       <ImageComponent/>
       <OrderedList/>
       <UnorderedList/>
+      <ComponentA/>
+<ComponentB/>
+<ComponentC/>
     </div>
   );
 }
