@@ -5,6 +5,7 @@ import ImageComponent from './components/img/img.js';
 import OrderedList from './components/list/list.js';
 import UnorderedList from './components/list/ul.js';
 import ComponentA,{ComponentB,ComponentC} from './components/exports-imports/export.js';
+import ConditionalRender from './components/conditional-render/index.js';
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
       <ComponentA/>
 <ComponentB/>
 <ComponentC/>
+<ConditionalRender/>
     </div>
   );
 }
