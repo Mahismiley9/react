@@ -1,0 +1,9 @@
+import {Component} from "react";
+class Jsx extends component{
+    render(){
+        return (
+            <h2>hello mahi its jsx </h2>
+        )
+    }
+}
+export default Jsx
