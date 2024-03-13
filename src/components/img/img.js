@@ -1,8 +1,10 @@
  import mahesh from "./rtx.jpg"
- const ImageComponent=()=>{
+ const ImageComponent=(prop)=>{
+    const{imageURL,dimensions}=prop
+     console.log(imageURL,"imageURl FROM ImageComponent")
     return(
 
-<img src={mahesh}  alt="rtx.jpg" width={200} height={250}/>   
+<img src={imageURL}  width={dimensions.width} height={dimensions.height}/>   
     )
     
  }

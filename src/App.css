@@ -41,3 +41,6 @@
   font-size: xx-large;
   
 }
+.container mt-3{
+  display: inline-block;
+}

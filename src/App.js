@@ -9,15 +9,16 @@ import ConditionalRender from './components/conditional-render/index.js';
 import TodoList from './components/styles/index.js';
 import "./App.css"
 import ContentPage from './components/styles/bootstrap/content.js';
+import AccordionComponent from './components/styles/bootstrap/reactBootstrap/accordion.js';
+import Corousel from './components/styles/bootstrap/reactBootstrap/corousel.js';
 function App() {
   return (
     <div>
-      <h1>mahesh</h1>
+      {/* <h1>mahesh</h1>
 
-      <h2>u</h2>
-
-      <ButtonComponent/>
-      <ImageComponent/>
+      <h2>u</h2> */}
+ <ButtonComponent/>
+      {/* <ImageComponent/> */}
       <OrderedList/>
       <UnorderedList/>
       <ComponentA/>
@@ -25,7 +26,10 @@ function App() {
 <ComponentC/>
 <ConditionalRender/>
 <TodoList/>
-<ContentPage/>
+{/* <ContentPage/>  */}
+<AccordionComponent/>
+<Corousel/>
+
     </div>
   );
 }
