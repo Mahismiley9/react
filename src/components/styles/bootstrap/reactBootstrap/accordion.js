@@ -150,12 +150,13 @@ export default AccordionComponent;
 
 const AccordionItem =(prop)=>{
   console.log(prop.data.title)
+  const{title}=prop.data
     return( 
         <Accordion.Item eventKey="2">
 
         <Accordion.Header>Accordion Item {prop.data.id}</Accordion.Header>
         <Accordion.Body>
-          {prop.data.title}
+          {title}
             
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do */}
             {/* eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

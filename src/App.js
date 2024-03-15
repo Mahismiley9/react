@@ -11,27 +11,28 @@ import "./App.css"
 import ContentPage from './components/styles/bootstrap/content.js';
 import AccordionComponent from './components/styles/bootstrap/reactBootstrap/accordion.js';
 import Corousel from './components/styles/bootstrap/reactBootstrap/corousel.js';
-function App() {
+import TextComponent from './components/props/text-component.js';
+import Profile from './components/props/profile.js';
+import { Children } from 'react';
+function App() { 
   return (
-    <div>
-      {/* <h1>mahesh</h1>
-
-      <h2>u</h2> */}
- <ButtonComponent/>
-      {/* <ImageComponent/> */}
-      <OrderedList/>
-      <UnorderedList/>
-      <ComponentA/>
-<ComponentB/>
-<ComponentC/>
-<ConditionalRender/>
-<TodoList/>
-{/* <ContentPage/>  */}
-<AccordionComponent/>
-<Corousel/>
-
-    </div>
+    <>
+   
+    <UnorderedList/>
+    </>
   );
 }
 
 export default App;
+
+
+function Wrapper(prop){
+  const{bgColor,Children}=prop
+  return(
+<div style={{flex:1,backgroundColor:bgColor}}>
+{
+  Children
+}
+</div>
+  )
+}
