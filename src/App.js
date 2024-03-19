@@ -10,15 +10,19 @@ import TodoList from './components/styles/index.js';
 import "./App.css"
 import ContentPage from './components/styles/bootstrap/content.js';
 import AccordionComponent from './components/styles/bootstrap/reactBootstrap/accordion.js';
-import Corousel from './components/styles/bootstrap/reactBootstrap/corousel.js';
+import props from './components/styles/bootstrap/reactBootstrap/corousel.js';
 import TextComponent from './components/props/text-component.js';
 import Profile from './components/props/profile.js';
-import { Children } from 'react';
+import  Children  from 'react';
+import Counter from './components/state/counter.js';
+
 function App() { 
   return (
     <>
    
-    <UnorderedList/>
+    
+    <Counter message= "hello guys" />
+    
     </>
   );
 }
