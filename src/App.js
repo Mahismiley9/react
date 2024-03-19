@@ -15,6 +15,7 @@ import TextComponent from './components/props/text-component.js';
 import Profile from './components/props/profile.js';
 import  Children  from 'react';
 import Counter from './components/state/counter.js';
+import UsersData from './components/axios/users.js';
 
 function App() { 
   return (
@@ -22,6 +23,7 @@ function App() {
    
     
     <Counter message= "hello guys" />
+    <UsersData/>
     
     </>
   );
