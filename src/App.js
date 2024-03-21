@@ -16,6 +16,11 @@ import Profile from './components/props/profile.js';
 import  Children  from 'react';
 import Counter from './components/state/counter.js';
 import UsersData from './components/axios/users.js';
+import MountingPhase from './components/lifeCycle/mountingPhase.js';
+import AudioSpinner from './components/spinners/audio-spinner.js';
+import DnaSpinner from './components/spinners/circular bar.js';
+import CurcularSpinner from './components/spinners/circular bar.js';
+
 
 function App() { 
   return (
@@ -23,7 +28,11 @@ function App() {
    
     
     <Counter message= "hello guys" />
-    <UsersData/>
+    {/* <UsersData/> */}
+    <MountingPhase/>
+    {/* <AudioSpinner/> */}
+    {/* <DnaSpinner/> */}
+    {/* <CurcularSpinner/> */}
     
     </>
   );
