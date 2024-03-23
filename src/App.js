@@ -20,6 +20,8 @@ import MountingPhase from './components/lifeCycle/mountingPhase.js';
 import AudioSpinner from './components/spinners/audio-spinner.js';
 import DnaSpinner from './components/spinners/circular bar.js';
 import CurcularSpinner from './components/spinners/circular bar.js';
+import UpdatingPhase from './components/lifeCycle/updatingphase.js';
+import Parent from './components/lifeCycle/unMountingphase.js';
 
 
 function App() { 
@@ -27,13 +29,14 @@ function App() {
     <>
    
     
-    <Counter message= "hello guys" />
+    {/* <Counter message= "hello guys" /> */}
     {/* <UsersData/> */}
-    <MountingPhase/>
+    {/* <MountingPhase favColor= "green"/> */}
     {/* <AudioSpinner/> */}
     {/* <DnaSpinner/> */}
     {/* <CurcularSpinner/> */}
-    
+    <UpdatingPhase/>
+    <Parent/>
     </>
   );
 }

@@ -18,7 +18,8 @@ class MountingPhase extends Component{
         super()
         this.state={
     message:"good morning",
-     users:[]
+     users:[],
+     color:"pink"
         }
     }
 
@@ -31,12 +32,18 @@ class MountingPhase extends Component{
         })
      
     }
+
+    static getDerivedStateFromProps(props,state){
+        console.log("getDerivedStateFromProps")
+ return{color:props.favColor};
+    }
     
     render(){
         console.log("render")
         return(
             <>
-            <h2>hi guys its Mounting time</h2>
+            <h2 style={{color:this.state
+            .color}}>hi guys its Mounting time</h2>
             {
                 this.state.users.length>0
                 ?
