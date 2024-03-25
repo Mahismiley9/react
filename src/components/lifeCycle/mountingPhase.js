@@ -34,7 +34,7 @@ class MountingPhase extends Component{
     }
 
     static getDerivedStateFromProps(props,state){
-        console.log("getDerivedStateFromProps")
+        console.log("getDerivedStateFromProps   ")
  return{color:props.favColor};
     }
     

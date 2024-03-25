@@ -22,6 +22,8 @@ import DnaSpinner from './components/spinners/circular bar.js';
 import CurcularSpinner from './components/spinners/circular bar.js';
 import UpdatingPhase from './components/lifeCycle/updatingphase.js';
 import Parent from './components/lifeCycle/unMountingphase.js';
+import ParentComponent from './components/purecomponents/parent.js';
+import CircleTask from './components/circletask/circle-Task.js';
 
 
 function App() { 
@@ -35,8 +37,10 @@ function App() {
     {/* <AudioSpinner/> */}
     {/* <DnaSpinner/> */}
     {/* <CurcularSpinner/> */}
-    <UpdatingPhase/>
-    <Parent/>
+    {/* <UpdatingPhase/>
+    <Parent/> */}
+    {/* <ParentComponent/> */}
+    <CircleTask/>
     </>
   );
 }
