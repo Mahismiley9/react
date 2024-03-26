@@ -24,6 +24,12 @@ import UpdatingPhase from './components/lifeCycle/updatingphase.js';
 import Parent from './components/lifeCycle/unMountingphase.js';
 import ParentComponent from './components/purecomponents/parent.js';
 import CircleTask from './components/circletask/circle-Task.js';
+import UseStateExample1 from './components/hooks/useStateex1.js';
+import UseStateEXample2 from './components/hooks/useStateex2.js';
+import UseStateExample3 from './components/hooks/useStateex3.js';
+
+
+
 
 
 function App() { 
@@ -40,7 +46,11 @@ function App() {
     {/* <UpdatingPhase/>
     <Parent/> */}
     {/* <ParentComponent/> */}
-    <CircleTask/>
+    {/* <CircleTask/> */}
+{/* <UseStateExample1/> */}
+{/* <UseStateEXample2/> */}
+<UseStateExample3/>
+
     </>
   );
 }
