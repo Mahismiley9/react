@@ -46,3 +46,6 @@ console.log(index,this.state.circles)
     }
 }
 export default CircleTask
+
+
+//it is a class base component

@@ -27,6 +27,9 @@ import CircleTask from './components/circletask/circle-Task.js';
 import UseStateExample1 from './components/hooks/useStateex1.js';
 import UseStateEXample2 from './components/hooks/useStateex2.js';
 import UseStateExample3 from './components/hooks/useStateex3.js';
+import UncontrolledComponent from './components/forms/uncontrolled.js';
+import Controlled from './components/forms/controlled.js';
+
 
 
 
@@ -49,7 +52,9 @@ function App() {
     {/* <CircleTask/> */}
 {/* <UseStateExample1/> */}
 {/* <UseStateEXample2/> */}
-<UseStateExample3/>
+{/* <UseStateExample3/> */}
+{/* <UncontrolledComponent/> */}
+<Controlled/>
 
     </>
   );
